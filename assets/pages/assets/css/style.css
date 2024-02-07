@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Roboto;
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1487px;
+    height: 1006px;
+    background-image: url('../img/Rectangle\ 18.png');
+    background-size: cover;
+}
+
+.box {
+    width: 1180.27px;
+    height: 392.18px;
+    margin-top: 276px;
+    margin-left: 154px;
+    border: 1px;
+    border: 1px solid #A1A1A1;
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px 0px #D4145A40;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.text_one {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.input_box {
+    width: 362.49px;
+    height: 50.72px;
+    margin-top: 20px;
+    margin-left: 215px;
+    border-radius: 9px;
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #A1A1A1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #989898;
+    position: absolute;
+    outline: none;
+}
+
+.input_box1 {
+    width: 362.49px;
+    height: 50.72px;
+    margin-top: 20px;
+    margin-left: 602px;
+    border-radius: 9px;
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #A1A1A1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #989898;
+    position: absolute;
+    outline: none;
+}
+
+.input_box2 {
+    width: 749.73px;
+    height: 81.65px;
+    margin-top: 100px;
+    margin-left: 215px;
+    border-radius: 9px;
+    border: 1px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 1px solid #A1A1A1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #989898;
+    position: absolute;
+    outline: none;
+}
+.img_gds{
+    margin-top: 68px;
+}
+.hewh{
+    position: absolute;
+    margin-left: -120px;
+    margin-left: 587px;
+}
+.btn{
+    width: 169.49px;
+    height: 42.06px;
+    margin-top: 230px;
+    margin-left: 160px;
+    border-radius: 9px;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+    color: white;
+    position: absolute;
+    transition: .5s;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
